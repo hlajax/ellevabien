@@ -1,0 +1,145 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+/*------les marges----*/
+.m-top-xs{
+	margin-top: 1%;
+}
+.m-top-main{
+	margin-top: 3.4%;
+}
+.m-top-mini{
+	margin-top: 2.5%;
+}
+.m-top{
+	margin-top: 5%;
+}
+.m-top-big{
+	margin-top: 20%;
+}
+.m-top-big-btn{
+	margin-top: 30%;
+}
+.m-bottom-xs{
+	margin-bottom: 1%;
+}
+.m-bottom-mini{
+	margin-bottom: 2.5%;
+}
+.m-bottom-big{
+	margin-bottom: 5%;
+}
+/*----les marges fin----*/
+/*-----les paddings-----*/
+.zepad{
+	padding:5%;
+}
+.zepad-main{
+	padding:3%;
+}
+.zepad-nav{
+	padding:.5%;
+}
+.zepad-titre{
+	padding-top:5%;
+}
+/*-----les paddings fin--*/
+/*----les textes-------*/
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Open Sans', sans-serif;
+	/**/
+	line-height: 1.5;
+}
+.card{
+	border: none;
+}
+.text-maj{
+	text-transform: uppercase;
+}
+.text-bold{
+	font-weight: 800;
+}
+.text-cap{
+	text-transform: capitalize;
+}
+.text-grand{
+	font-size: 24px;
+}
+.big-titre-accueil{
+	font-size: 30px;
+	font-weight:800;
+}
+.big-titre{
+	font-size: 36px;
+}
+.big-titre::first-letter{
+text-transform: uppercase;
+}
+.contenu p{
+	font-size: 16px;
+	
+	line-height: 1.5;
+}
+.contenu p:first-of-type::first-letter {
+  color: #003044;
+	font-weight: bold;
+  font-size: 50px;
+}
+.nav-link{
+    color: grey;
+    font-size: 18px;
+	font-weight: lighter;
+    /*text-transform:uppercase;
+	font-weight: bold;*/
+}
+
+.nav-link:hover{
+    color:  #003044;
+    /*text-transform:uppercase;
+	font-weight: bold;*/
+}
+.nav-cat .nav-link{
+    color: white;
+    font-size: 16px;
+    text-transform:uppercase;
+	font-weight: bold;
+}
+.nav-cat .nav-link:hover{
+   color: white;
+    font-size: 16px;
+    text-transform:uppercase;
+	font-weight: bold;
+}
+.titre-section{
+	font-size:24px;
+	font-weight:bold;
+	text-transform:capitalize;
+}
+.titre-sport{
+	
+	font-size:8px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.text-vote{
+	font-size:32px;
+	font-weight:bold;
+}
+/*---les textes---*/
+/*--------les images--------*/
+.img-cercle{
+	border-radius: 50%;
+}
+/*--------les images fin----*/

@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  titre: MyString
+  resume: MyText
+  contenu: MyText
+  image: MyString
+  slug: MyString
+  category: one
+  auteur: one
+
+two:
+  titre: MyString
+  resume: MyText
+  contenu: MyText
+  image: MyString
+  slug: MyString
+  category: two
+  auteur: two
