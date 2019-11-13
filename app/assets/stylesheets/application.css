@@ -81,6 +81,12 @@ h1,h2,h3,h4,h5,h6{
 	font-size: 30px;
 	font-weight:800;
 }
+.titre{
+	font-size: 32px;
+	line-height: 1;
+	font-weight: 800;
+	text-transform: uppercase;
+}
 .big-titre{
 	font-size: 36px;
 }
@@ -98,11 +104,10 @@ text-transform: uppercase;
   font-size: 50px;
 }
 .nav-link{
-    color: grey;
-    font-size: 18px;
-	font-weight: lighter;
-    /*text-transform:uppercase;
-	font-weight: bold;*/
+    color: black;
+    font-size: 20px;
+	font-weight: bold;
+    text-transform:uppercase;
 }
 
 .nav-link:hover{
@@ -143,3 +148,16 @@ text-transform: uppercase;
 	border-radius: 50%;
 }
 /*--------les images fin----*/
+/*-----------les blocs----------*/
+.bloc-img{
+	width:50%;
+	height:400px;
+	float:left
+}
+.bloc-text{
+	width:47%;
+	height:400px;
+	float:left;
+	padding:3%;
+}
+/*-----------les blocs fin-------*/
