@@ -5,9 +5,14 @@ class ArticlesController < ApplicationController
   # GET /articles.json
   def index
 	  @articles = Article.all.limit(1).order("created_at DESC")
-	  @actone = Article.all.limit(1).offset(1).order("created_at DESC")
-	  @actwo = Article.all.limit(1).offset(2).order("created_at DESC")
-	  @acthree = Article.all.limit(1).offset(3).order("created_at DESC")
+    @culture = Article.where(category: [1]).limit(2).offset(1).order("created_at DESC")
+    @cultures = Article.where(category: [1]).limit(2).offset(2).order("created_at DESC")
+    @education = Article.where(category: [2]).limit(2).offset(1).order("created_at DESC")
+    @educations = Article.where(category: [3]).limit(2).offset(2).order("created_at DESC")
+    @sante = Article.where(category: [3]).limit(2).offset(1).order("created_at DESC")
+    @santes = Article.where(category: [3]).limit(2).offset(2).order("created_at DESC")
+    @technologie = Article.where(category: [4]).limit(2).offset(1).order("created_at DESC")
+    @technologies = Article.where(category: [4]).limit(2).offset(2).order("created_at DESC")
  end
 
   # GET /articles/1

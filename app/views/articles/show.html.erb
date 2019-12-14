@@ -1,3 +1,4 @@
+<%=render 'menus/main'%>
 <div class="container-fluid">
 	<div class="row" style="background:url('<%= @article.image.url %>')no-repeat;background-size:cover;background-position:center top;height:350px;">
 		<div class="col-lg-12">
@@ -20,7 +21,7 @@
 				<div style="width:50%;float:left;margin-left:5%;margin-top:8%;"><%= @article.auteur.nom %></div>
 				</div>
 				<div class="col-lg-12 col-12 contenu">
-					<p><%= @article.contenu %></p>
+					<p><%= raw(@article.contenu) %></p>
 				</div>
 			</div>
 		</div>

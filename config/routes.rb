@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'education/index'
   resources :articles
   resources :categories
   devise_for :administrateurs

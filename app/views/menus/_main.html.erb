@@ -1,0 +1,7 @@
+
+     <nav class="nav d-flex justify-content-between">
+      <%=link_to "Accueil", root_path, class:"p-2 text-muted" %>
+      <%Category.all.each do |categorie| %>
+      <%=link_to categorie.titre, articles_path(categorie: categorie.titre), class:"p-2 text-muted"%> 
+      <% end %>
+    </nav>
