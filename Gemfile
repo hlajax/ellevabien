@@ -19,7 +19,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'friendly_id', '~> 5.3'
-gem 'carrierwave', '~> 1.3', '>= 1.3.1'
+gem 'carrierwave', '~> 1.3'
 gem 'cloudinary'
 gem 'meta-tags', '~> 2.13'
 # Use Redis adapter to run Action Cable in production
